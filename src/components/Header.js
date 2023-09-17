@@ -7,7 +7,7 @@ function Header() {
       <div className="flex flex-col w-[50%] h-[500px] px-2 border-white border-2  items-center justify-center  ">
         {/* Hero section */}
         <h3 className="text-lg text-code">Hi all. My name is,</h3>
-        <h1 className="text-7xl text-rose-500">Himagna Ganti</h1>
+        <h1 className="text-7xl text-slate-500">Himagna Ganti</h1>
         <br></br>
         <h2 className="text-2xl text-slate-50  text-justify">
           I love building things just like I do it with lego. I’m a creative,

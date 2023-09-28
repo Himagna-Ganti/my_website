@@ -10,8 +10,8 @@ function App() {
       <Nav />
       <hr className="mx-10 w-[95%] h-[0.5px] opacity-40 " />
       <Header />
-      <Projects />
       <Experience />
+      <Projects />
     </div>
   );
 }

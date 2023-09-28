@@ -8,6 +8,7 @@ module.exports = {
         buttons: "#be123c",
         textt: "#71717a",
         code: "#43d9ad",
+        card: "#16213D",
       },
       boxShadow: {
         custom:

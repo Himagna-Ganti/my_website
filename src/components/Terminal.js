@@ -51,7 +51,7 @@ function Terminal() {
           <Typed
             className="text-slate-100"
             strings={[
-              "I grew up in a small city called Vizag on the southern coast of India. ",
+              "I am pursuing Master's in Electrical and Computer Engineering at the University of Ottawa. I am passionate about software engineering.",
             ]}
             startDelay={9000}
             showCursor={false}

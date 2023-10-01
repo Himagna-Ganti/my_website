@@ -16,7 +16,7 @@ const workEx = [
 ];
 function Experience() {
   return (
-    <div className="border-2 border-white w-[screen] mx-[40px] h-[700px] text-white px=[10px] mb-[1000px]">
+    <div className="border-2 border-white w-[screen] mx-[40px] h-[700px] text-white px=[10px] mb-[200px]">
       <div className="flex justify-center">
         <h1 className="text-code text-[40px]">Experience</h1>
       </div>
@@ -25,7 +25,7 @@ function Experience() {
           return (
             <div className="w-[100%] px-[20px] h-[330px] border-2 border-white flex flex-col">
               <div className="mb-[5px]">
-                <h1 className="text-rose-500 text-[24px]">{data.company}</h1>
+                <h1 className="text-rose-700 text-[24px]">{data.company}</h1>
               </div>
               <div className="flex flex-row justify-between">
                 <h1 className="text-white text-[18px]">{data.position}</h1>

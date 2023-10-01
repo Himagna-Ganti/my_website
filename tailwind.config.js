@@ -7,7 +7,7 @@ module.exports = {
         darkness: "#0f172a",
         buttons: "#be123c",
         textt: "#71717a",
-        code: "#43d9ad",
+        code: "#38bdf8",
         card: "#16213D",
       },
       boxShadow: {

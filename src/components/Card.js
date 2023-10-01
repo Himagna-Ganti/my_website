@@ -5,7 +5,7 @@ function Card(props) {
     <div className=" bg-card rounded-md drop-shadow-2xl shadow-2xl mx-5 h-[300px] w-[screen] my-[20px] flex-col ">
       <div className="flex h-[50px] mb-[10px] px-[20px] justify-between  ">
         <div className="flex flex-col justify-center">
-          <h1 className="text-rose-500 text-[24px]  ">{props.title}</h1>
+          <h1 className="text-rose-700 text-[24px]  ">{props.title}</h1>
         </div>
         <div className="flex flex-col justify-center pr-[10px]">
           <img className="   rounded-full" src={github} alt="" />

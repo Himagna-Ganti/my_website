@@ -3,7 +3,7 @@ import Nav from "./components/Nav";
 import Header from "./components/Header";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
-
+import Skills from "./components/Skills";
 function App() {
   return (
     <div className="bg-darkness overflow-hidden ">
@@ -12,6 +12,7 @@ function App() {
       <Header />
       <Experience />
       <Projects />
+      <Skills />
     </div>
   );
 }

@@ -6,7 +6,7 @@ import linkedin from "../assets/linkedin.svg";
 function Header() {
   return (
     <section className="m-10 flex">
-      <div className="flex flex-col w-[50%] h-[500px] px-2 border-white border-2  items-center justify-center  ">
+      <div className="flex flex-col w-[50%] h-[500px] px-2   items-center justify-center  ">
         {/* Hero section */}
         <h3 className="text-lg text-code">Hi all. My name is,</h3>
         <h1 className="text-7xl text-rose-700">Himagna Ganti</h1>

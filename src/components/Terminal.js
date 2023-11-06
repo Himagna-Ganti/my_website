@@ -3,7 +3,7 @@ import Typed from "react-typed";
 
 function Terminal() {
   return (
-    <div className="w-[51%] h-[500px] flex flex-row  border-white border-2 items-center justify-center">
+    <div className="w-[51%] h-[500px] flex flex-row   items-center justify-center">
       <div className="w-[90%] h-[450px] drop-shadow-lg border-[1px] border-gray-500 bg-zinc-900 rounded-lg flex flex-col ">
         <div className="w-[100%] h-[20px]  bg-neutral-700 rounded-t-md  flex justify-center items-center">
           <div className="text-stone-300 text-xs font-bold ">
@@ -51,7 +51,7 @@ function Terminal() {
           <Typed
             className="text-slate-100"
             strings={[
-              "I am pursuing Master's in Electrical and Computer Engineering at the University of Ottawa. I am passionate about software engineering.",
+              "Anim duis velit tempor magna ut qui quis in.Elit non excepteur ad aliqua.Veniam est eu quis commodo quis laboris fugiat nostrud dolor in.",
             ]}
             startDelay={9000}
             showCursor={false}
@@ -61,7 +61,7 @@ function Terminal() {
           <Typed
             className="text-slate-100"
             strings={[
-              "Now, I am pursuing a Master's in Electrical and Computer Engineering from the University of Ottawa. I have a Bachelor's in Instrumentation from India, where I developed an enthusiasm for software engineering.",
+              "Est eiusmod irure sit excepteur nostrud minim.Irure reprehenderit labore consectetur enim ullamco tempor.",
             ]}
             startDelay={12800}
             showCursor={false}
@@ -86,7 +86,7 @@ function Terminal() {
           <Typed
             className="text-slate-100"
             strings={[
-              "-> I am a National level Table Tennis player back in India.",
+              "-> Reprehenderit in voluptate officia minim excepteur consectetur incididunt anim dolor labore aliqua id culpa.",
             ]}
             startDelay={30000}
             showCursor={false}
@@ -95,7 +95,9 @@ function Terminal() {
           <br />
           <Typed
             className="text-slate-100"
-            strings={["-> C is the first programming language I learned."]}
+            strings={[
+              "-> Occaecat duis veniam reprehenderit amet eu eu cupidatat velit commodo velit cillum eu.",
+            ]}
             startDelay={34000}
             showCursor={false}
             typeSpeed={20}

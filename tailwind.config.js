@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx,html}"],
   theme: {
     extend: {
+      listStyleImage: {
+        arrow: "url('/src/assets/arrow-narrow.svg')",
+      },
       colors: {
         darkness: "#0f172a",
         buttons: "#be123c",

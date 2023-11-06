@@ -17,19 +17,39 @@ const projects = [
     image: p1,
     tech_stack: [rct, node, js, postgresql, openstack, tailwind, html5],
   },
+  {
+    title: "F1 through the years",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, saepe iure tempora nemo enim minima amet odio impedit magnam mollitia fugiat est eligendi facere tempore nisi, dolore deleniti! Cumque, aut doloribus! Debitis, suscipit! Minus reprehenderit fugit nihil quis a! Laudantium amet neque vero alias architecto quisquam corporis, culpa magni dicta",
+    image: p1,
+
+    tech_stack: [rct, node, js, postgresql, openstack, tailwind, html5],
+  },
+  {
+    title: "Netflix Stock price prediction",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, saepe iure tempora nemo enim minima amet odio impedit magnam mollitia fugiat est eligendi facere tempore nisi, dolore deleniti! Cumque, aut doloribus! Debitis, suscipit! Minus reprehenderit fugit nihil quis a! Laudantium amet neque vero alias architecto quisquam corporis, culpa magni dicta",
+    image: p1,
+
+    tech_stack: [rct, node, js, postgresql, openstack, tailwind, html5],
+  },
 ];
 function Projects() {
   return (
-    <div className="border-2 border-white m-10 h-[1000px]  w-[screen] flex-col content-center justify-center ">
+    <div className=" m-10 h-[1100px]  w-[screen] flex-col content-center justify-center ">
       <div className="flex justify-center">
         <h1 className="text-[40px] text-code">Projects</h1>
       </div>
-      <Card
-        title={projects[0].title}
-        description={projects[0].description}
-        image={projects[0].image}
-        tech_stack={projects[0].tech_stack}
-      />
+      {projects.map(function (info) {
+        return (
+          <Card
+            title={info.title}
+            description={info.description}
+            image={info.image}
+            tech_stack={info.tech_stack}
+          />
+        );
+      })}
     </div>
   );
 }

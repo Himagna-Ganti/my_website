@@ -19,6 +19,7 @@ let skills = [
     data: "Bash",
     learning: "1",
   },
+  { data: "C++", learning: "1" },
   {
     data: "HTML",
     learning: "0",
@@ -39,6 +40,7 @@ let skills = [
     data: "React",
     learning: "1",
   },
+  { data: "Tailwind", learning: "0" },
   {
     data: "Node JS",
     learning: "0",

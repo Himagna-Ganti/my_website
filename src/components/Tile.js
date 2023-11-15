@@ -17,7 +17,7 @@ function Tile(props) {
     console.log(typeof props.learning);
     return (
       <>
-        <div className=" bg-transparent border-2 border-white max-w-max h-[40px] rounded-lg flex items-center justify-center">
+        <div className=" bg-transparent border-2  hover:animate-bounce   border-white max-w-max h-[40px] rounded-lg flex items-center justify-center">
           <h1 className="text-white text-xl font-bold px-[5px]">
             {props.data}
           </h1>

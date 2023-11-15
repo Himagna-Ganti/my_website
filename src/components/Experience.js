@@ -6,14 +6,33 @@ const workEx = [
     location: "Ottawa, ON",
     position: "Research Assistant",
     duration: " June 2023 - Current",
-    summary: ["ebrfje", "vfchawevc", "gwcbukebce"],
+    summary: [
+      "Developed a cloud based portal exclusively to host UAV related datasets.",
+      "Utilised cloud resources provided by Digital Research Alliance of Canada to my supervisor, Prof. Miodrag Bolic.",
+      "Configured S3 buckets to store data as well as configured S3 APIs for the portal.",
+      "Configured Globus platform for easier data sharing between different Compute Canada clusters among research peers under Prof. Bolic.",
+    ],
   },
   {
     company: "Proxima Systems",
     location: "Hyderabad, India",
     position: "Backend Web development Intern",
     duration: " Feb 2022 - Jun 2022 ",
-    summary: ["voluptate irure elit eu laborum.", "vfchawevc", "gwcbukebce"],
+    summary: [
+      "Part of the team developing back-end functionality for company's internal ticketing system interface using Node.js.",
+      "Employed MongoDB for faster query response time.",
+      "REST API testing - POSTMAN.",
+    ],
+  },
+  {
+    company: "Green Visakha Eco-Friendly Industries",
+    location: "Visakhapatnam, India",
+    position: "Intern",
+    duration: " Jan 2021 -- Feb 2021 ",
+    summary: [
+      "Developed SCL code for programming Siemens' PLCs.",
+      "Maintained conveyor belt ladder logic for a brick factory.",
+    ],
   },
 ];
 

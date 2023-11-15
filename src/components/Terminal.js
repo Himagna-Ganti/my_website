@@ -51,19 +51,9 @@ function Terminal() {
           <Typed
             className="text-slate-100"
             strings={[
-              "Anim duis velit tempor magna ut qui quis in.Elit non excepteur ad aliqua.Veniam est eu quis commodo quis laboris fugiat nostrud dolor in.",
+              "I am a graduate student at Univesity of Ottawa, specialising in full stack web development.",
             ]}
             startDelay={9000}
-            showCursor={false}
-            typeSpeed={20}
-          />
-          <br />
-          <Typed
-            className="text-slate-100"
-            strings={[
-              "Est eiusmod irure sit excepteur nostrud minim.Irure reprehenderit labore consectetur enim ullamco tempor.",
-            ]}
-            startDelay={12800}
             showCursor={false}
             typeSpeed={20}
           />

@@ -6,7 +6,7 @@ function Tile(props) {
     return (
       <>
         <div className=" bg-code border-2 border-code max-w-max h-[40px] rounded-lg flex items-center justify-center">
-          <h1 className="text-white font-bold text-xl px-[5px]">
+          <h1 className="text-white  font-bold text-xl px-[5px]">
             {props.data}
           </h1>
         </div>

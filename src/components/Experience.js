@@ -38,7 +38,10 @@ const workEx = [
 
 function Experience() {
   return (
-    <div className=" w-[screen] mx-[40px] h-[700px] text-white px=[10px] mb-[50px]">
+    <div
+      className=" w-[screen] mx-[40px] h-[700px] text-white px=[10px] mb-[50px]"
+      id="experience"
+    >
       <div className="flex justify-center">
         <h1 className="text-code text-[40px]">Experience</h1>
       </div>

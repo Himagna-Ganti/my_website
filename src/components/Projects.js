@@ -36,7 +36,10 @@ const projects = [
 ];
 function Projects() {
   return (
-    <div className=" m-10 h-[1100px]  w-[screen] flex-col content-center justify-center ">
+    <div
+      id="projects"
+      className=" m-10 h-[1100px]  w-[screen] flex-col content-center justify-center "
+    >
       <div className="flex justify-center">
         <h1 className="text-[40px] text-code">Projects</h1>
       </div>

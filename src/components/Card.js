@@ -13,7 +13,7 @@ function Card(props) {
       </div>
       <div className=" flex justify-between px-[20px]  h-[200px]">
         <div className=" flex flex-col w-[50%] items-center justify-center">
-          <p className="text-white text-[18px] ">{props.description}</p>
+          <p className="text-white text-[18px]  ">{props.description}</p>
         </div>
         <div className="w-[50%]  flex flex-row justify-end">
           <img src={props.image} className="rounded-lg" alt=""></img>

@@ -139,7 +139,7 @@ let skills = [
 ];
 function Skills() {
   return (
-    <div className=" m-10 h-[550px]  w-[screen]">
+    <div id="skills" className=" m-10 h-[550px]  w-[screen]">
       <div className="text-code text-[40px] flex justify-center">
         Skills and Interests
       </div>
